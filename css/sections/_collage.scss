@@ -1,3 +1,59 @@
 .collage-bg {
 	background: linear-gradient(50deg, rgb(6 13 28) 0%, rgb(4 52 58) 100%);
 }
+
+.collage__content {
+	display: flex;
+}
+
+.collage__content-right {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.collage__content-left {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.collage__item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	height: 206px;
+
+	transition: all 0.3s ease;
+	cursor: pointer;
+
+	&:hover {
+		box-shadow: 0 0 5px 2px #ffffff;
+		scale: 1.1;
+		border-radius: 10px;
+	}
+}
+
+.collage__item-ellips {
+	position: absolute;
+	bottom: -7px;
+	left: 40px;
+
+	&--position {
+		bottom: -5px;
+		left: 495px;
+	}
+}
+
+.collage__item-photo {
+	width: 45%;
+}
+
+.collage__desc {
+	width: 45%;
+
+	padding: 30px;
+
+	color: var(--white);
+}

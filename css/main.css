@@ -508,6 +508,9 @@ svg * {
   width: 58%;
   padding: 124px 0px 58px 0px;
 }
+.title-heading--course {
+  width: 70%;
+}
 .title-heading span {
   color: #4abcec;
 }
@@ -785,6 +788,11 @@ svg * {
   bottom: 12%;
   right: -50px;
   opacity: 0.3;
+  transition: 0.7s ease;
+  cursor: pointer;
+}
+.intelligence__img:hover {
+  opacity: 1;
 }
 
 .intelligence__list {
@@ -816,4 +824,107 @@ svg * {
 
 .collage-bg {
   background: linear-gradient(50deg, rgb(6, 13, 28) 0%, rgb(4, 52, 58) 100%);
+}
+
+.collage__content {
+  display: flex;
+}
+
+.collage__content-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.collage__content-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.collage__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 206px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.collage__item:hover {
+  box-shadow: 0 0 5px 2px #ffffff;
+  scale: 1.1;
+  border-radius: 10px;
+}
+
+.collage__item-ellips {
+  position: absolute;
+  bottom: -7px;
+  left: 40px;
+}
+.collage__item-ellips--position {
+  bottom: -5px;
+  left: 495px;
+}
+
+.collage__item-photo {
+  width: 45%;
+}
+
+.collage__desc {
+  width: 45%;
+  padding: 30px;
+  color: var(--white);
+}
+
+.course-bg {
+  background-image: url("/img/content/bg-intelligence.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.course {
+  position: relative;
+}
+
+.course__img {
+  position: absolute;
+  bottom: 0%;
+  right: -35%;
+  opacity: 0.3;
+  transition: 0.7s ease;
+  cursor: pointer;
+}
+.course__img:hover {
+  opacity: 1;
+}
+
+.course__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  gap: 10px;
+  padding-bottom: 70px;
+  list-style: none;
+}
+
+.course__item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  width: 62%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: var(--white);
+}
+.course__item:hover {
+  box-shadow: 0 0 5px 2px #ffffff;
+  scale: 1.1;
+  background-color: #123a45;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.404);
 }
