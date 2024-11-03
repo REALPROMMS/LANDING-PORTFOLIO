@@ -1,0 +1,21 @@
+.button {
+	box-shadow: 0 7px 20px -7px #00e0ff;
+	background: linear-gradient(180deg, rgba(3, 225, 255, 0.66) 0%, #13cdc2 100%);
+	border-radius: 9px;
+	padding: 25px 13px;
+	font-family: var(--font-family);
+	font-weight: 750;
+	font-size: 12px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	transition: all 0.3s ease;
+	display: inline-block;
+
+	&:hover {
+		color: var(--black);
+		scale: 1.1;
+		background: var(--white);
+	}
+}

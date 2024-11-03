@@ -1,0 +1,27 @@
+// Базовые стили
+@import './base/root';
+@import './base/fonts';
+
+@import './base/normalize';
+@import './base/global';
+
+@import './base/support';
+
+// Эффекты
+
+// Активные элементы
+@import './activity/modal-form';
+
+// Блоки
+@import './blocks/button';
+@import './blocks/title';
+@import './blocks/title-heading';
+@import './blocks/wrapper';
+@import './blocks/line';
+
+// Смысловые секции
+@import './sections/header';
+@import './sections/reasons';
+@import './sections/intelligence';
+@import './sections/collage';
+@import './sections/footer';
