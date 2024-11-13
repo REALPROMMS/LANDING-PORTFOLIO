@@ -12,3 +12,10 @@ buttonEl.addEventListener('click', toggleModal);
 closeEl.addEventListener('click', toggleModal);
 bgCloseEl.addEventListener('click', toggleModal);
 consultationEl.addEventListener('click', toggleModal);
+
+const detailEl = document.querySelector('.informations__list');
+const arrowEl = document.getElementById('arrow-toogle');
+
+detailEl.addEventListener('click', (e) => {
+	arrowEl.classList.toggle('rotate');
+});
